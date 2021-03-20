@@ -1,0 +1,17 @@
+.main-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Anonymous Pro', monospace;
+    background-color: #000;
+}
+
+.main-section.black{
+    color: #FFF;
+}
+
+.main-section .white-section{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #FFF;
+    width: 76%;
+}

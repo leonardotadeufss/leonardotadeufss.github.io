@@ -1,0 +1,9 @@
+.background-detail{
+    z-index: 10;
+}
+
+.background-detail.blue{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 5%;
+}
