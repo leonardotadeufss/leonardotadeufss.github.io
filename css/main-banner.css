@@ -1,0 +1,34 @@
+.main-banner{
+    width: 100%;
+    height: 680px;
+    background-color: rgb(254, 186, 1);
+    background-image: url("../assets/img/losango.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FEFEFE;
+
+}
+
+.main-banner .profile{
+   margin-right: 70px;
+}
+
+.main-banner .title{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 68px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.main-banner .subtitle{
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 45px;
+    text-align: right;
+}
+
+.main-banner .devices{
+    margin-left: 75px;
+}
