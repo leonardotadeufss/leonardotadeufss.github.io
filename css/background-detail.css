@@ -12,3 +12,10 @@
     position: absolute;
     right: 0;
 }
+
+.background-detail.logo{
+    position: absolute;
+    right: 0;
+    margin-right: calc(24vw - 95px);
+    margin-top: 150px;
+}

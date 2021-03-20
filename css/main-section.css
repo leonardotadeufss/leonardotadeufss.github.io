@@ -16,3 +16,20 @@
     background-color: #FFF;
     width: 76%;
 }
+
+.main-section .container{
+    width: max-content;
+    margin: 100px auto;
+}
+
+.main-section.final{
+    background-image: url("../assets/img/contacs.jpg");
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: right center ;
+}
+
+.main-section .white-section.final{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}

@@ -1,0 +1,13 @@
+.contact-text{
+    display: block;
+    font-family: 'Anonymous Pro', monospace;
+    color: #000;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 32px;
+}
+
+.contact-text::before{
+    content: url("../assets/img/puzzleMediumBlack.png");
+    margin-right : 10px;
+}
