@@ -1,12 +1,13 @@
 .main-action{
     display: inline-flex;
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 700;
     align-items: center;
     color: #FEFEFF;
-    font-family: inherit;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .main-action::before{
     content: url("../assets/img/puzzleSmallYellow.png");
-    margin-right: 10px;
+    margin-right : 10px;
 }
