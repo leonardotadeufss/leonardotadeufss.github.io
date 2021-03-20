@@ -10,6 +10,7 @@
 }
 
 .main-section .white-section{
+    padding: inherit;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: #FFF;

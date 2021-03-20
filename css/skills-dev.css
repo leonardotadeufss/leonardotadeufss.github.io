@@ -1,0 +1,24 @@
+.skills-dev{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Anonymous Pro" , sans-serif;
+    font-size: 25px;
+    align-items: center;
+}
+.skills-dev .icon{
+    margin-right: 25px;
+    width: 90px;
+}
+
+.skills-dev .title{
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.skills-dev .level{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
