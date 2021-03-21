@@ -8,7 +8,7 @@
 }
 
 .main-action::before{
-    content: url("../assets/img/puzzleSmallYellow.png");
+    content: url("../../assets/img/puzzleSmallYellow.png");
     margin-right : 10px;
 }
 

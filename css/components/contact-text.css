@@ -8,6 +8,6 @@
 }
 
 .contact-text::before{
-    content: url("../assets/img/puzzleMediumBlack.png");
+    content: url("../../assets/img/puzzleMediumBlack.png");
     margin-right : 10px;
 }

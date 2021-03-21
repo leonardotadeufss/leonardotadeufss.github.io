@@ -23,8 +23,8 @@
 }
 
 .main-section.final{
-    background-image: url("../assets/img/contacs.jpg");
-    background-size: 70%;
+    background-image: url("../../assets/img/contacs.jpg");
+    background-size: 60%;
     background-repeat: no-repeat;
     background-position: right bottom ;
     padding-bottom: 0;

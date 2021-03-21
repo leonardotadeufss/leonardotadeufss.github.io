@@ -2,5 +2,9 @@
     width: 70%;
     margin: 0 auto;
     text-align: justify;
-    font-size: 32px;
+        font-size: 32px;
+}
+
+.text-container p {
+    margin-bottom: 10px;
 }
