@@ -24,9 +24,10 @@
 
 .main-section.final{
     background-image: url("../assets/img/contacs.jpg");
-    background-size: 55%;
+    background-size: 70%;
     background-repeat: no-repeat;
-    background-position: right center ;
+    background-position: right bottom ;
+    padding-bottom: 0;
 }
 
 .main-section .white-section.final{

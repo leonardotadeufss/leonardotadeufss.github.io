@@ -1,34 +1,31 @@
 .main-banner{
     width: 100%;
-    height: 680px;
-    background-color: rgb(254, 186, 1);
-    background-image: url("../assets/img/losango.png");
+    height: 95vh;
+    background-image: url("../assets/img/pexels-negative-space-160107\ 2.png");
     background-position: right center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
-    color: #FEFEFE;
+    color: #000;
 
 }
 
 .main-banner .profile{
-   margin-right: 70px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .main-banner .title{
     font-family: 'Aldrich', sans-serif;
-    font-size: 68px;
-    text-align: right;
+    font-size: 96px;
     margin-bottom: 15px;
 }
 
 .main-banner .subtitle{
     font-family: 'Anonymous Pro', monospace;
-    font-size: 45px;
-    text-align: right;
+    font-size: 48px;
+
 }
 
-.main-banner .devices{
-    margin-left: 75px;
-}
