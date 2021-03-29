@@ -1,0 +1,85 @@
+@import url("components/background-detail.css");
+@import url("components/card-project.css");
+@import url("components/contact-text.css");
+@import url("components/main-action.css");
+@import url("components/main-banner.css");
+@import url("components/main-header.css");
+@import url("components/main-section.css");
+@import url("components/main-title.css");
+@import url("components/progress-bar.css");
+@import url("components/skills-dev.css");
+@import url("components/text-container.css");
+@import url("components/wrapper-project.css");
+@import url("components/wrapper-skill.css");
+
+
+@media only screen and (max-width: 1325px){
+
+    .main-section,
+    .main-banner{
+        overflow: hidden;
+    }
+    
+    .main-section .white-section {
+        width: 100%;
+    }
+
+    .main-action{
+        display: none;
+    }
+    .background-detail{
+        display: none;
+    }
+
+    .main-title{
+        font-size: 58px;
+    }
+
+    .main-banner .subtitle {
+        font-size: 24px;
+    }
+    .main-banner .title {
+        font-size: 48px;
+    }
+
+    .text-container{
+        font-size: 18px;
+        text-align: center;
+    }
+    .wrapper-skill .progress-bar {
+        width: 150px;
+    }
+    .skills-dev .title {
+        font-size: 24px;
+    }
+
+    .wrapper-project {
+        display: flex;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+    }
+
+    .card-project {
+       padding: 20px;
+    }
+
+    .main-section .white-section.final {
+        padding-top: 100px; 
+        padding-bottom: 100px;
+    }
+
+    .contact-text{
+        font-size: 13px;
+    }
+    
+    .contact-text::before{
+        content: url("../../assets/img/puzzleSmallYellow.png");
+    }
+
+    
+.main-section.final {
+    background-image: none;
+}
+}
