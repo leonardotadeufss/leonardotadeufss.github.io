@@ -499,3 +499,66 @@ header {
 .pt {
   display: var(--display-pt);
 }
+
+@media (max-width: 575px) {
+
+  #card {
+    width: 95%;
+    max-height: unset;
+    height: 80vh;
+    margin-top: 1rem;
+  }
+
+  #card-container {
+    flex-direction: column;
+  }
+
+  #social,
+  #works {
+    flex-direction: row;
+  }
+
+  #social {
+    padding-bottom: 0;
+  }
+
+  #works {
+    width: 100%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #works p {
+    transform: none;
+    white-space: initial;
+    padding-left: 0;
+    font-size: 1rem;
+  }
+
+  #card-body #name {
+    font-size: 1.4rem;
+  }
+
+  #card-body #job {
+    font-size: 1rem;
+    margin-top: .5rem;
+  }
+
+  #card-body #description {
+    max-width: 80%;
+    font-size: .8rem;
+  }
+
+  #card-content {
+    padding: 1rem 1.5rem;
+  }
+
+  #techs,
+  #courses {
+    flex-wrap: wrap;
+  }
+
+}
