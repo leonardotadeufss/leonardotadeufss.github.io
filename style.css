@@ -538,6 +538,10 @@ header {
     font-size: 1rem;
   }
 
+  #card-body {
+    margin-top: 1rem;
+  }
+
   #card-body #name {
     font-size: 1.4rem;
   }
@@ -548,17 +552,51 @@ header {
   }
 
   #card-body #description {
-    max-width: 80%;
+    max-width: 100%;
     font-size: .8rem;
+    margin: 1rem 0;
   }
 
   #card-content {
     padding: 1rem 1.5rem;
+    box-sizing: border-box;
   }
 
   #techs,
   #courses {
     flex-wrap: wrap;
+    margin: 1rem 0;
+  }
+
+  #techs {
+    width: 100%;
+    justify-content: space-around;
+    gap: 10px 0;
+    margin-bottom: 2rem;
+  }
+
+  .course-card {
+    flex: 0 0 35%
+  }
+
+  .course-card .title {
+    font-size: .7rem;
+    text-align: center;
+  }
+
+  #works.back {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 0;
+  }
+
+  #back-card-content #card-content {
+    min-height: 90%;
+  }
+
+  #projects .container {
+    flex: 0 0 75%;
   }
 
 }
